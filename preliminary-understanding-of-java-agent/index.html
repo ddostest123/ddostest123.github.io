@@ -6,35 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     
-    <title>ddostest123</title>
+    <title>初识JavaAgent | ddostest123</title>
 
     <meta name="description" content=" For fun ">
     <meta name="keywords" content="">
 
     
 
-
-
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content=""/>
-    <meta property="og:description" content=""/>
     <meta property="og:locale" content="zh-CN" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://ddostest123.github.io/index.html" />
-    <meta property="og:site_name" content="ddostest123" />
+    <meta property="og:title" content= "初识JavaAgent | ddostest123"  />
+    <meta property="og:description" content= " For fun " />
+    <meta property="og:url" content="https://ddostest123.github.io/preliminary-understanding-of-java-agent/index.html" />
+    <meta property="og:site_name" content="" />
+    <meta property="article:author" content="ddostest123" />
     <meta property="article:publisher" content="" />
+    <meta property="og:description" content=" For fun " />
+    <meta name="twitter:title" content="初识JavaAgent | ddostest123"/>
+    <meta name="twitter:description" content=" For fun "/>
     <script type="application/ld+json">
         {
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "",
-            "description": "",
+            "description": " For fun ",
+            "author": { "@type": "Person", "name": "ddostest123" },
+            "@type": "BlogPosting",
+            "url": "https://ddostest123.github.io/preliminary-understanding-of-java-agent/index.html",
             "publisher": {
-                "@type": "Organization",
-                "name": "ddostest123"
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://ddostest123.github.io/images/avatar.jpg"
             },
+            "name": "ddostest123"
+            },
+            "headline": "初识JavaAgent | ddostest123",
+            "datePublished": "2022-11-26T16:57:00.000Z",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://ddostest123.github.io/preliminary-understanding-of-java-agent/index.html"
+            },
+            "@context": "http://schema.org"
         }
     </script>
+
+
 
 
     
@@ -64,7 +78,7 @@
 
 
     <script>
-        window.isPost = false
+        window.isPost = true
         window.aomori = {
             
             gitalk: {
@@ -160,21 +174,40 @@
         <div class="main">
             <section class="inner">
                 <section class="inner-main">
-                    <div class="index">
-  
-    
-      <article
-  id="tweet-preliminary-understanding-of-java-agent"
-  class="article article-type-tweet"
->
+                    <div class="tweet">
+    <article id="tweet-claz7w9pz00001keqe93xed0t" class="article article-type-tweet" itemscope
+    itemprop="blogPost">
 
-    <div class="article-tweet article-type-tweet-inner">
+    <div class="article-inner">
 
-        <ion-icon class="article-tweet-quote" name="balloon"></ion-icon>
+        
+          
+        
+        
+        
 
-        <div class="article-tweet-content post-inner-html">
+        
+
+        <div class="article-more-info article-more-info-tweet hairline">
+
+            <div class="article-date">
+  <time datetime="2022-11-26T16:57:00.000Z" itemprop="datePublished">2022-11-27</time>
+</div>
+
             
-                <h2><span id="0x01-java-agent">0x01 Java Agent</span></h2><p>JavaAgent有两种使用方式。</p>
+
+            
+            <div class="article-tag">
+                <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javaagent/" rel="tag">javaagent</a></li></ul>
+            </div>
+            
+
+            
+
+        </div>
+
+        <div class="article-entry post-inner-html hairline" itemprop="articleBody">
+            <h2><span id="0x01-java-agent">0x01 Java Agent</span></h2><p>JavaAgent有两种使用方式。</p>
 <ol>
 <li><p>第一种是在 JVM启动的时候加载，通过 javaagent 启动参数，在程序main方法执行之前执行agent 中的premain 方法。</p>
 </li>
@@ -255,39 +288,44 @@ public static void premain(String agentArgs);
 <h3><span id="3-装载agent">3、装载agent</span></h3><p><img src="/preliminary-understanding-of-java-agent/image-20221127181419465.png" alt="image-20221127181419465"></p>
 <p>最后成功修改目标方法的代码和返回值。</p>
 
-            
-        </div>
-
-        <footer class="article-footer">
-          <div class="article-more-info">
-            <a class="article-tweet-common" href="/preliminary-understanding-of-java-agent/">评论</a>
-            <div class="article-date">
-  <time datetime="2022-11-26T16:57:00.000Z" itemprop="datePublished">2022-11-27</time>
-</div>
-            
-            
-                <div class="article-tag">
-                <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javaagent/" rel="tag">javaagent</a></li></ul>
-                </div>
-            
-            </div>
-        </footer>
-
-        <div class="article-badge">
-            
-            
         </div>
 
     </div>
 
-</article>
+    
 
     
-  
 
-  
+    <section class="share">
+        <div class="share-title">分享</div>
+        <a class="share-item" target="_blank"
+            href="https://twitter.com/share?text=初识JavaAgent - ddostest123&url=https%3A%2F%2Fddostest123.github.io%2Fpreliminary-understanding-of-java-agent%2F">
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+    </section>
+
+</article>
+
+
+
+
+
+
+
+
+<section class="comments">
+    <div id="gitalk-container"></div>
+</section>
+
+
+
+
+
+
+
+
+
 </div>
-
                 </section>
             </section>
 
